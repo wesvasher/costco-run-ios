@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		043613C21B7BC06700F14030 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043613C11B7BC06700F14030 /* main.m */; };
-		043613C51B7BC06700F14030 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043613C41B7BC06700F14030 /* AppDelegate.m */; };
-		043613C81B7BC06700F14030 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043613C71B7BC06700F14030 /* ViewController.m */; };
+		043613C51B7BC06700F14030 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043613C41B7BC06700F14030 /* SCAppDelegate.m */; };
+		043613C81B7BC06700F14030 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043613C71B7BC06700F14030 /* SCViewController.m */; };
 		043613CB1B7BC06700F14030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043613C91B7BC06700F14030 /* Main.storyboard */; };
 		043613CD1B7BC06700F14030 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043613CC1B7BC06700F14030 /* Images.xcassets */; };
 		043613D01B7BC06700F14030 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043613CE1B7BC06700F14030 /* LaunchScreen.xib */; };
 		043613DC1B7BC06700F14030 /* CostcoRunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043613DB1B7BC06700F14030 /* CostcoRunTests.m */; };
+		045BCA571B7CDB2E0001124F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 045BCA561B7CDB2E0001124F /* Settings.bundle */; };
+		5D8C6792564D510AFC9BE568 /* libPods-CostcoRun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3583C32EB2F47660E907277E /* libPods-CostcoRun.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +32,20 @@
 		043613BC1B7BC06700F14030 /* CostcoRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CostcoRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043613C01B7BC06700F14030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043613C11B7BC06700F14030 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		043613C31B7BC06700F14030 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		043613C41B7BC06700F14030 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		043613C61B7BC06700F14030 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		043613C71B7BC06700F14030 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		043613C31B7BC06700F14030 /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		043613C41B7BC06700F14030 /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		043613C61B7BC06700F14030 /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
+		043613C71B7BC06700F14030 /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
 		043613CA1B7BC06700F14030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		043613CC1B7BC06700F14030 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		043613CF1B7BC06700F14030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		043613D51B7BC06700F14030 /* CostcoRunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CostcoRunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043613DA1B7BC06700F14030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043613DB1B7BC06700F14030 /* CostcoRunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CostcoRunTests.m; sourceTree = "<group>"; };
+		045BCA561B7CDB2E0001124F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		1183D888CA51B095D3251041 /* Pods-CostcoRun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CostcoRun.release.xcconfig"; path = "Pods/Target Support Files/Pods-CostcoRun/Pods-CostcoRun.release.xcconfig"; sourceTree = "<group>"; };
+		2AA9C04FB7272A3B607631F0 /* Pods-CostcoRun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CostcoRun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CostcoRun/Pods-CostcoRun.debug.xcconfig"; sourceTree = "<group>"; };
+		3583C32EB2F47660E907277E /* libPods-CostcoRun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CostcoRun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D8C6792564D510AFC9BE568 /* libPods-CostcoRun.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +73,8 @@
 				043613BE1B7BC06700F14030 /* CostcoRun */,
 				043613D81B7BC06700F14030 /* CostcoRunTests */,
 				043613BD1B7BC06700F14030 /* Products */,
+				1DA8F4EFB1385B8FB304196B /* Pods */,
+				DC52331868885240C9F29CB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +90,11 @@
 		043613BE1B7BC06700F14030 /* CostcoRun */ = {
 			isa = PBXGroup;
 			children = (
-				043613C31B7BC06700F14030 /* AppDelegate.h */,
-				043613C41B7BC06700F14030 /* AppDelegate.m */,
-				043613C61B7BC06700F14030 /* ViewController.h */,
-				043613C71B7BC06700F14030 /* ViewController.m */,
+				045BCA561B7CDB2E0001124F /* Settings.bundle */,
+				043613C31B7BC06700F14030 /* SCAppDelegate.h */,
+				043613C41B7BC06700F14030 /* SCAppDelegate.m */,
+				043613C61B7BC06700F14030 /* SCViewController.h */,
+				043613C71B7BC06700F14030 /* SCViewController.m */,
 				043613C91B7BC06700F14030 /* Main.storyboard */,
 				043613CC1B7BC06700F14030 /* Images.xcassets */,
 				043613CE1B7BC06700F14030 /* LaunchScreen.xib */,
@@ -119,6 +129,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1DA8F4EFB1385B8FB304196B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AA9C04FB7272A3B607631F0 /* Pods-CostcoRun.debug.xcconfig */,
+				1183D888CA51B095D3251041 /* Pods-CostcoRun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC52331868885240C9F29CB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3583C32EB2F47660E907277E /* libPods-CostcoRun.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043613DF1B7BC06700F14030 /* Build configuration list for PBXNativeTarget "CostcoRun" */;
 			buildPhases = (
+				BC63D33ECA02AB02E4992370 /* Check Pods Manifest.lock */,
 				043613B81B7BC06700F14030 /* Sources */,
 				043613B91B7BC06700F14030 /* Frameworks */,
 				043613BA1B7BC06700F14030 /* Resources */,
+				74A080D8C575BED28EBE8960 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +197,7 @@
 				TargetAttributes = {
 					043613BB1B7BC06700F14030 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 9386RDE9M6;
 					};
 					043613D41B7BC06700F14030 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -199,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045BCA571B7CDB2E0001124F /* Settings.bundle in Resources */,
 				043613CB1B7BC06700F14030 /* Main.storyboard in Resources */,
 				043613D01B7BC06700F14030 /* LaunchScreen.xib in Resources */,
 				043613CD1B7BC06700F14030 /* Images.xcassets in Resources */,
@@ -214,13 +245,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74A080D8C575BED28EBE8960 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CostcoRun/Pods-CostcoRun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC63D33ECA02AB02E4992370 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		043613B81B7BC06700F14030 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043613C81B7BC06700F14030 /* ViewController.m in Sources */,
-				043613C51B7BC06700F14030 /* AppDelegate.m in Sources */,
+				043613C81B7BC06700F14030 /* SCViewController.m in Sources */,
+				043613C51B7BC06700F14030 /* SCAppDelegate.m in Sources */,
 				043613C21B7BC06700F14030 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,21 +409,29 @@
 		};
 		043613E01B7BC06700F14030 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA9C04FB7272A3B607631F0 /* Pods-CostcoRun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CostcoRun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		043613E11B7BC06700F14030 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1183D888CA51B095D3251041 /* Pods-CostcoRun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CostcoRun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -416,6 +488,7 @@
 				043613E11B7BC06700F14030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043613E21B7BC06700F14030 /* Build configuration list for PBXNativeTarget "CostcoRunTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +497,7 @@
 				043613E41B7BC06700F14030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

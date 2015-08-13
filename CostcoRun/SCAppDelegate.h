@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SCAppDelegate.h
 //  CostcoRun
 //
 //  Created by Wesley Vasher on 8/12/15.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SCAppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (strong, nonatomic) UIWindow *window;
 
 @end
 
